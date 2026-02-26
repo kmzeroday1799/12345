@@ -1,0 +1,565 @@
+ 
+ 
+ 
+<?php include 'formatlo.php'; ?>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>TecNM | Tecnológico Nacional de México</title>
+	<meta name="author" content="TecNM">
+	<meta name="description" content="Página del Tecnológico Nacional de México">
+	<meta name="keywords"
+		content="TecNM, Instituto Tecnológico Nacional de México, Tec, Tecnológico Nacional de México, Universidad" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<meta name="copyright" content="TecNM" />
+	<meta name="robots" content="ALL">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" href="img/favicon/tecnm.ico" />
+
+	<!-- CSS Bootstrap -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+	<!-- Mis estilos -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Iconos con Font Awesome -->
+	<link rel="stylesheet" href="assets/files/main/css/fa-svg-with-js.css">
+	<link rel="stylesheet" href="iconos/iconos.css">
+
+	<!-- Se agrega para poder usar las fuentes en el css -->
+	<link rel="stylesheet" href="assets/files/main/css/estilo-compresion.min.css">
+	<link rel="stylesheet" href="assets/files/main/css/jssorStyle.css">
+
+	<link href="css/noticarrusel/slick-theme.css" rel="stylesheet" />
+	<link href="css/noticarrusel/slick.css" rel="stylesheet" />
+
+	<!-- Estilo del carrucel -->
+	<link rel="stylesheet" href="css/Estilos.css">
+
+	<!-- Desface -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+	<!-- Footer Gob-->
+	<script src="js/footerGob.js"></script>
+	<!-- Fin Footer Gob  -->
+
+	<!-- Sub Menú -->
+	<link rel="stylesheet" href="css/bootnavbar.css">
+	<!-- Menú Fijo -->
+
+	<!-- NAV BAR AZUL -->
+	<link rel="stylesheet" href="css/navbarazul.css">
+	<!-- FIN NAV BAR AZUL -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Posicion azul-->
+	<script src="js/posmenu.js"></script>
+	<!-- Fin Posicion azul  -->
+
+	<!-- Traductor -->
+	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+	<!-- google traslate-->
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'es',
+				autoDisplay: false,
+				gaTrack: true,
+				gaId: 'wewe',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
+	<!-- Fin google traslate  -->
+	
+</head>
+
+<body>
+
+	<!-- MENU GOBERNACIÓN -->
+	<header id='header'>
+		<?php require_once 'Complementos/menugobernacion.php'; ?>
+	</header>
+
+	<!-- Encabezado principal -->
+	<div class="u-noPaddingContainer contenedorGobierno">
+		<?php require_once 'Complementos/encabezadoprincipal.php'; ?>
+	</div>
+	<!-- Fin Encabezado principal -->
+
+	<!-- Menú Blanco -->
+	<nav class="navbar navbar-expand-xl navbar-light bg-white" id="main_navbar2">
+
+		<!-- Buscador
+		<form action='Buscar' class="navbar-brand ml-1" method='POST'>
+			<input class="w-100 h-100 border align-items-center" type="text" name='buscar' placeholder="Buscar"
+				autocomplete='off' />
+			<input type="hidden" name="btn_busqueda" />
+		</form>
+		
+
+		<button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span> Menú
+		</button>
+
+		-->
+		<!-- Navegador Moodle -->
+		<?php require_once 'Complementos/navegador1.php'; ?>
+		<!-- Fin Navegador Moodle -->
+	</nav>
+
+	<!-- Menú Azul  -->
+	<?php require_once 'Complementos/menuazul.php'; ?>
+	<!-- Termina Menú Azul  -->
+
+	<!-- Slider -->
+	 
+	<section class='one-time principal border'>
+
+		<div class='carousel-item' style='background-image: url("img/Oferta/OfertaITFC.png");'>
+			<a target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/IGUALDAD_Y_NO_DISCRIMINACION.jpg");'>
+			<a href='img/slider/IGUALDAD_Y_NO_DISCRIMINACION.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/SLIDER 75 aniversario.jpg");'>
+			<a href='img\slider\SLIDER 75 aniversario.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/Masculinidad.jpg");'>
+			<a href='img\slider\Masculinidad.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/Art7.jpg");'>
+			<a href='img\slider\Art7.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/Masculinidad2.jpg");'>
+			<a href='img\slider\Masculinidad2.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/ENECB.jpg");'>
+			<a href='img\slider\ENECB.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/masculinidad3.jpg");'>
+			<a href='img\slider\masculinidad3.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/ciberacoso.jpg");'>
+			<a href='img\slider\ciberacoso.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/SLIDERVIOLEM.jpg");'>
+			<a href='img\slider\SLIDERVIOLEM.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/SLIDERDERECHO.jpg");'>
+			<a href='img\slider\SLIDERDERECHO.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/SLIDERART7.jpg");'>
+			<a href='img\slider\SLIDERART7.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/SLIDERCARTILLA.jpg");'>
+			<a href='img\slider\SLIDERCARTILLA.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/slider acoso sexual.jpg");'>
+			<a href='img\slider\slider acoso sexual.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/slider DERECHOS SEX INFO 1 2023.jpg");'>
+			<a href='img\slider DERECHOS SEX INFO 1 2023.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/slider cultura violación.jpg");'>
+			<a href='img\slider cultura violación.jpg' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/seguimiento.JPG");'>
+			<a href='https://forms.office.com/r/b0yEFWW9kM' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/calendarioAD2024.jpg");'>
+			<a href='pdf/descargas/calendario Ago-Dic 2024.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/FOROVIRTUAL.jpeg");'>
+			<a href='pdf/descargas/Conv_Foro_NvoModelo.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/Aviso Importante.jpg");'>
+			<a href='pdf/descargas/¿Qué hacer si se tiene un conflicto de interés.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/CONV1.jpg");'>
+			<a href='pdf/descargas/CONVOCATORIA HONORARIOS.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/	violenciasex.jpeg");'>
+			<a href=' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/Slider Lista de Asp.jpg");'>
+			<a href='pdf/descargas/LISTA DE ACEPTADOS AGOS-DIC 2024.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/reflexion.jpg");'>
+			<a target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/acoso.jpg");'>
+			<a target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/ligados.jpg");'>
+			<a href='pdf/descargas/guia2025.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/ligados1.jpg");'>
+			<a href='pdf/descargas/CARTEL_MUJER.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/respeto.jpg");'>
+			<a target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/Reporte de evaluacion institucional.png");'>
+			<a href='pdf/descargas/REPORTE-INSTITUTO TECNOLOGICO DE FRONTERA COMALAPA.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/AvisoSimplificado.png");'>
+			<a href='pdf/descargas/OFICIO 662 Aviso de privacidad Simplificado.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+
+		<div class='carousel-item' style='background-image: url("img/slider/AvisoIntegral.png");'>
+			<a href='pdf/descargas/OFICIO 662 Aviso de privacidad Integral.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/BecaAG2025.png");'>
+			<a href='pdf/descargas/BecasAG2025.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/SLIDER LecturaM.png");'>
+			<a href='pdf/descargas/Infografia Lectura Dia Internacional de la Lengua Materna 2026.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+		<div class='carousel-item' style='background-image: url("img/slider/slider gaceta enero.jpg");'>
+			<a href='https://www.tecnm.mx/pdf/gaceta/2026/Gaceta_TecNM_17ENE2026.pdf' target='_blank'>
+				<div style='width:100%; height:100%'></div>
+			</a>
+		</div>
+	</section>
+
+	<!-- Contenidos (Síguenos, Sitios de Interés) -->
+	<div id='desface' style='display: none;'>
+		<div class='container m-0 m-auto mb-3'>
+
+			<!-- Inicia comunicación -->
+
+			
+			<!--Termina comunicacion-->
+			<br />
+
+			<!-- Síguenos -->
+			<section>
+
+				<p class='col-12 display-2 text-center'>
+					Síguenos
+				</p>
+
+				<div class='media-container-row' style="text-align: center;">
+
+					<!-- Twitter -->
+
+					<a class='twitter-timeline twitter-timeline-rendered' data-lang='es' width='350' data-height='525'
+						data-dnt='true' data-theme='light' href='https://twitter.com/TecNM_MX?ref_src=twsrc%5Etfw'></a>
+
+					<!--Youtube-->
+					<iframe width='350' height='525' src='https://www.youtube.com/embed/1fysHX-IgHo' frameborder='0'
+						allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+						allowfullscreen></iframe>
+
+					<!-- Facebook  -->
+
+					<iframe
+						src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTecNMComalapa&tabs=timeline&width=350&height=525&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+						width="350" height="525" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+						allowfullscreen="true" allow="encrypted-media"></iframe>
+				</div>
+			</section>
+
+			<!-- Anexos -->
+			<div class='row w-100 justify-content-center bg-light py-3 m-0'>
+				<section class='anexos bg-light pb-2 anexo sitios'>
+
+					<div>
+						<a target='_blank' href='Sistemas.html'>
+							<img loading='lazy' src='img/anexos/sistemas_de_gestion_btn.png' />
+						</a>
+					</div>
+					<div>
+						<a target='_blank' href='pdf/anexos/pronunciamiento.pdf'>
+							<img loading='lazy' src='img/anexos/pronunciamiento.png' />
+						</a>
+					</div>
+
+					<div>
+						<a target='_blank' href='pdf/anexos/Protocolo_HSyAS.pdf'>
+							<img loading='lazy' src='img/anexos/protocolo_prevencion.png' />
+						</a>
+					</div>
+
+					<div>
+						<a target='_blank'
+							href='https://www.dof.gob.mx/nota_detalle.php?codigo=5642176&fecha=08/02/2022#gsc.tab=0'>
+							<img loading='lazy' src='img/anexos/codigo_etica.png' />
+						</a>
+					</div>
+
+					<div>
+						<a target='_blank'
+							href='https://www.dof.gob.mx/nota_detalle.php?codigo=5697108&fecha=31/07/2023#gsc.tab=0'>
+							<img loading='lazy' src='img/anexos/codigo_conducta.png' />
+						</a>
+					</div>
+
+					<div>
+						<a target='_blank' href='pdf/anexos/decreto_tecnm.pdf'>
+							<img loading='lazy' src='img/anexos/decreto_creacion.png' />
+						</a>
+					</div>
+
+				</section>
+			</div>
+
+			<br />
+
+			<!-- Sitios de Interés -->
+			<div class='row w-100 justify-content-center bg-light pt-3 m-0'>
+
+				<p class='display-2'>
+					Sitios de Interés
+				</p>
+
+			</div>
+			<div class='row w-100 justify-content-center bg-light pt-3 m-0'>
+
+				<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+					<a href='https://conahcyt.mx/' target='_blank'>
+						<img loading='lazy' src='img/interes/btn_CONAHCYT.png' alt='CONACYT' title='CONACYT'
+							class='img-fluid' />
+					</a>
+				</div>
+
+				<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+					<a href='https://www.conricyt.mx/' target='_blank'>
+						<img loading='lazy' src='img/interes/CONRICYT.png' alt='CONRICYT' title='CONRICYT'
+							class='img-fluid' />
+					</a>
+				</div>
+
+				<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+					<a href='http://www.ifai.org.mx/' target='_blank'>
+						<img loading='lazy' src='img/interes/INAI.png' alt='INAI' title='INAI' class='img-fluid' />
+					</a>
+				</div>
+
+				<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+					<a href='https://www.plataformadetransparencia.org.mx/' target='_blank'>
+						<img loading='lazy' src='img/interes/btn_transparencia.png' alt='PNT' title='PNT'
+							class='img-fluid' />
+					</a>
+				</div>
+
+				<div class='col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3'>
+					<a href='https://www.tecnm.mx/?vista=Dir_Posgrado'>
+						<img loading='lazy' src='img/interes/contraloria_2023.png' alt='Dir_Posgrado'
+							title='Dir_Posgrado' class='img-fluid' />
+					</a>
+				</div>
+
+			</div>
+
+			<br />
+
+		</div>
+	</div>
+	<!-- INTEGRAR ACCESIBILIDAD -->
+
+	<!-- Redes Sociales Lateral -->
+	<?php require_once 'Complementos/redessocialeslateral.php'; ?>
+	<!-- Fin Redes Sociales Lateral -->
+
+	<!-- Dirección y teléfono -->
+	<?php require_once 'Complementos/direcciontelefono.php'; ?>
+	<!-- Fin Dirección y teléfono -->
+
+	<!-- Opciones de Accesibilidad -->
+
+	<script src="https://cdn.equalweb.com/core/4.2.2/accessibility.js" defer=""
+		integrity="sha512-5JFUorutIyGmP61zRJjdTke6AFi8/IYzJ6pyQL0UpUqwMNDuukmNH2qv2s+lj0X6MPtblMt4KgWLoDmqrTa5kg=="
+		crossorigin="anonymous" data-cfasync="true"></script>
+	<script src='assets/files/main/js/index.onload.js'></script>
+
+	<!-- Twitter -->
+	<script id='twitter-wjs' src='https://platform.twitter.com/widgets.js'></script>
+
+	<!-- Banner -->
+	<script src='assets/web/assets/jquery/jquery.min.js'></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Configuración de los carrucel -->
+	<script>
+		$(document).on('ready', function() {
+
+			$('.one-time').slick({
+				dots: true,
+				infinite: true,
+				speed: 500,
+				slidesToShow: 1,
+				adaptiveHeight: true,
+				adaptiveWidth: true,
+				autoplay: true,
+				autoplaySpeed: 6000,
+				arrows: false,
+				fade: true,
+				pauseOnHover: true
+			});
+
+			$('.center').slick({
+				dots: false,
+				infinite: true,
+				arrows: true,
+				autoplay: true,
+				autoplaySpeed: 4000,
+				centerMode: false,
+				centerPadding: '0px',
+				slidesToShow: 4,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						//arrows: false,
+						centerMode: true,
+						centerPadding: '0px',
+						slidesToShow: 2
+					}
+				}, {
+					breakpoint: 480,
+					settings: {
+						arrows: false,
+						centerMode: true,
+						centerPadding: '0px',
+						slidesToShow: 2
+					}
+				}]
+			});
+
+			$('.anexo').slick({
+				dots: false, // puntos
+				infinite: true,
+				arrows: true, // flechas
+				autoplay: true,
+				autoplaySpeed: 3500,
+				slidesToShow: 4,
+				pauseOnHover: true,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						//arrows: false,
+						slidesToShow: 2
+					}
+				}, {
+					breakpoint: 480,
+					settings: {
+						arrows: false,
+						centerPadding: '0px',
+						slidesToShow: 2
+					}
+				}]
+			});
+		});
+	</script>
+
+	<script src="js/noticarrusel/slick.js"></script>
+
+	<!-- Footer Gobernación -->
+	<?php require_once 'Complementos/footergobierno.php'; ?>
+	<!-- Fin Footer Gobernación -->
+
+	<!-- Menú Azul - Permite el desglose -->
+	<script src="js/bootnavbar.js"></script>
+	<script>
+		$(function() {
+			$('#main_navbar').bootnavbar({
+				//option
+				//animation: false
+			});
+		})
+	</script>
+
+</body>
+
+</html>
