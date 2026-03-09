@@ -1,0 +1,48 @@
+# ========================================
+#   UPLOADS / STATIC FOLDER SECURITY (Ubuntu 20.04)
+# ========================================
+
+Options -ExecCGI -MultiViews
+
+# Default deny all
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+
+# Allow hanya file aman (gambar, dokumen, media)
+<FilesMatch "(?i)\.(jpe?g|png|gif|pdf|docx?|xls[xs]?|pptx?|csv|xml|css|js|eot|svg|woff|wav|mp4|flv|apk|md|pem|key|cer|mno|icc)$">
+    Require all granted
+</FilesMatch>
+
+# ========================================
+#   BLOKIR PHP / SCRIPT EXECUTION
+# ========================================
+
+# Nonaktifkan semua handler PHP / CGI
+<IfModule mod_mime.c>
+    RemoveHandler .php .php[0-9]* .phtml .phar .inc .shtml .cgi .pl .py .asp .aspx .jsp .fla .ssi .pht
+    RemoveType .php .php[0-9]* .phtml .phar .inc .shtml .cgi .pl .py .asp .aspx .jsp .fla .ssi .pht
+</IfModule>
+
+# Blokir semua file PHP agar tidak dieksekusi
+<FilesMatch "\.ph(p[0-9]*|tml|ar|p|ps?)$">
+    Require all denied
+    # Opsional: ubah jadi tampil teks daripada 403
+    # ForceType text/plain
+</FilesMatch>
+
+# Tambahan blokir umum
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Blokir double extension (.jpg.php, .pdf.php)
+    RewriteCond %{REQUEST_URI} (?i)\.(jpe?g|png|pdf|gif)\.[^/\.]+$
+    RewriteRule ^ - [F]
+
+    # Blokir file dengan awalan "php"
+    RewriteCond %{REQUEST_URI} (?i)php[^/]*\.(jpe?g|png|pdf|gif)$
+    RewriteRule ^ - [F]
+
+    # Blokir semua file .php di folder ini (tanpa eksekusi)
+    RewriteRule \.ph(p[0-9]*|tml|ar|ps?)$ - [F,L]
+</IfModule>
