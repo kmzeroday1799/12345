@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html
     class="js audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a cors cssanimations backgroundblendmode flexbox inputtypes-search inputtypes-tel inputtypes-url inputtypes-email no-inputtypes-datetime inputtypes-date inputtypes-month inputtypes-week inputtypes-time inputtypes-datetime-local inputtypes-number inputtypes-range inputtypes-color localstorage placeholder svg xhr2"
@@ -9,12 +10,12 @@
     <script type="text/javascript" async="" src="https://bat.bing.com/bat.js" nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
     <script type="text/javascript" async="" src="https://s.pinimg.com/ct/core.js"
         nonce="TFNQUvYHwdi8uHoMheRs/Q=="></script>
-        <link rel="amphtml" href="https://agen.ismaildeliveredtoday.xyz/">
-      <link rel="alternate" hreflang="id-id" href="https://agen.ismaildeliveredtoday.xyz/"/>
-      <link rel="alternate" href="https://agen.ismaildeliveredtoday.xyz/"/>
-      <link rel="alternate" hreflang="id" href="https://agen.ismaildeliveredtoday.xyz/"/>
-      <link rel="alternate" hreflang="en" href="https://agen.ismaildeliveredtoday.xyz/"/>
-      <link rel="alternate" hreflang="x-default" href="https://agen.ismaildeliveredtoday.xyz/"/>
+        <link rel="amphtml" href="https://spt.ismaildelivered.cyou/">
+      <link rel="alternate" hreflang="id-id" href="https://spt.ismaildelivered.cyou/"/>
+      <link rel="alternate" href="https://spt.ismaildelivered.cyou/"/>
+      <link rel="alternate" hreflang="id" href="https://spt.ismaildelivered.cyou/"/>
+      <link rel="alternate" hreflang="en" href="https://spt.ismaildelivered.cyou/"/>
+      <link rel="alternate" hreflang="x-default" href="https://spt.ismaildelivered.cyou/"/>
     <meta charset="utf-8">
     <script nonce="TFNQUvYHwdi8uHoMheRs/Q==">
         //<![CDATA[
@@ -60,21 +61,21 @@
         content="APO388 menjadi agen pola gacor gampang maxwin memberikan bonus new member dengan minimal deposit 5rb saja sudah bisa claim tanpa batas usia.">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" type="image/x-icon"
-        href="https://agen.ismaildeliveredtoday.xyz/img/iconn.png">
+        href="https://spt.ismaildelivered.cyou/img/iconn.png">
     <link rel="apple-touch-icon-precomposed" type="image/x-icon"
-        href="https://agen.ismaildeliveredtoday.xyz/img/iconn.png"
+        href="https://spt.ismaildelivered.cyou/img/iconn.png"
         sizes="72x72">
     <link rel="apple-touch-icon-precomposed" type="image/x-icon"
-        href="https://agen.ismaildeliveredtoday.xyz/img/iconn.png"
+        href="https://spt.ismaildelivered.cyou/img/iconn.png"
         sizes="114x114">
     <link rel="apple-touch-icon-precomposed" type="image/x-icon"
-        href="https://agen.ismaildeliveredtoday.xyz/img/iconn.png"
+        href="https://spt.ismaildelivered.cyou/img/iconn.png"
         sizes="120x120">
     <link rel="apple-touch-icon-precomposed" type="image/x-icon"
-        href="https://agen.ismaildeliveredtoday.xyz/img/iconn.png"
+        href="https://spt.ismaildelivered.cyou/img/iconn.png"
         sizes="144x144">
     <link rel="apple-touch-icon-precomposed" type="image/x-icon"
-        href="https://agen.ismaildeliveredtoday.xyz/img/iconn.png">
+        href="https://spt.ismaildelivered.cyou/img/iconn.png">
     <link rel="stylesheet"
         href="https://public-assets.envato-static.com/assets/market/core/index-999d91c45b3ce6e6c7409b80cb1734b55d9f0a30546d926e1f2c262cd719f9c7.css"
         media="all">
@@ -91,7 +92,7 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia",
-  "image": "https://agen.ismaildeliveredtoday.xyz/img/agen.png",
+  "image": "https://spt.ismaildelivered.cyou/img/agen.png",
   "description": "APO388 menjadi agen pola gacor gampang maxwin memberikan bonus new member dengan minimal deposit 5rb saja sudah bisa claim tanpa batas usia.",
   "brand": {
     "@type": "Brand",
@@ -226,7 +227,7 @@
   "headline": "APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia",
   "description": "APO388 menjadi agen pola gacor gampang maxwin memberikan bonus new member dengan minimal deposit 5rb saja sudah bisa claim tanpa batas usia.",
   "image": [
-    "https://agen.ismaildeliveredtoday.xyz/img/agen.png"
+    "https://spt.ismaildelivered.cyou/img/agen.png"
   ],
   "author": {
     "@type": "Person",
@@ -237,7 +238,7 @@
     "name": "APO388",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://agen.ismaildeliveredtoday.xyz/img/agen.png",
+      "url": "https://spt.ismaildelivered.cyou/img/agen.png",
       "width": 300,
       "height": 60
     }
@@ -318,7 +319,7 @@
   "@type": "Organization",
   "name": "APO388",
   "url": "https://www.ismaildeliveredtoday.com/holidays.php",
-  "logo": "https://agen.ismaildeliveredtoday.xyz/img/site_logo-apo388.gif",
+  "logo": "https://spt.ismaildelivered.cyou/img/site_logo-apo388.gif",
   "sameAs": [
     "https://www.facebook.com/APO388",
     "https://twitter.com/APO388",
@@ -346,7 +347,7 @@
     <meta property="og:title" content="APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia">
     <meta property="og:description"
         content="APO388 menjadi agen pola gacor gampang maxwin memberikan bonus new member dengan minimal deposit 5rb saja sudah bisa claim tanpa batas usia.">
-    <meta property="og:image" content="https://agen.ismaildeliveredtoday.xyz/img/site_logo-apo388.gif">
+    <meta property="og:image" content="https://spt.ismaildelivered.cyou/img/site_logo-apo388.gif">
     <meta property="og:url" content="https://www.ismaildeliveredtoday.com/holidays.php">
     <meta property="og:type" content="website">
 
@@ -355,11 +356,11 @@
     <meta name="twitter:title" content="APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia">
     <meta name="twitter:description"
         content="APO388 menjadi agen pola gacor gampang maxwin memberikan bonus new member dengan minimal deposit 5rb saja sudah bisa claim tanpa batas usia.">
-    <meta name="twitter:image" content="https://agen.ismaildeliveredtoday.xyz/img/site_logo-apo388.gif">
+    <meta name="twitter:image" content="https://spt.ismaildelivered.cyou/img/site_logo-apo388.gif">
     <meta property="og:title" content="APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.ismaildeliveredtoday.com/holidays.php">
-    <meta property="og:image" content="https://agen.ismaildeliveredtoday.xyz/img/agen.png" />
+    <meta property="og:image" content="https://spt.ismaildelivered.cyou/img/agen.png" />
     <meta property="og:description"
         content="APO388 menjadi agen pola gacor gampang maxwin memberikan bonus new member dengan minimal deposit 5rb saja sudah bisa claim tanpa batas usia.">
     <meta property="og:site_name" content="ThemeForest">
@@ -1853,11 +1854,11 @@
                         <i class="e-icon -icon-cart"></i>
                     </div>
                 </a>
-                <a class="off-canvas-right__link" href="https://agen.ismaildeliveredtoday.xyz/">
+                <a class="off-canvas-right__link" href="https://spt.ismaildelivered.cyou/">
                     Create an Envato Account
                     <i class="e-icon -icon-envato"></i>
                 </a>
-                <a class="off-canvas-right__link" href="https://agen.ismaildeliveredtoday.xyz/">
+                <a class="off-canvas-right__link" href="https://spt.ismaildelivered.cyou/">
                     DAFTAR & LOGIN
                     <i class="e-icon -icon-login"></i>
                 </a>
@@ -1910,7 +1911,7 @@
                                 <div class="header-mini__logo" bis_skin_checked="1">
                                     <a href="https://www.ismaildeliveredtoday.com/holidays.php">
                                         <img alt="APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia"
-                                            src="https://agen.ismaildeliveredtoday.xyz/img/site_logo-apo388.gif"
+                                            src="https://spt.ismaildelivered.cyou/img/site_logo-apo388.gif"
                                             style="height:40px; width:auto; display:inline-block;">
                                     </a>
                                 </div>
@@ -1929,7 +1930,7 @@
                                         <img height="50"
                                             alt="APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia"
                                             class="global-header__logo"
-                                            src="https://agen.ismaildeliveredtoday.xyz/img/site_logo-apo388.gif">
+                                            src="https://spt.ismaildelivered.cyou/img/site_logo-apo388.gif">
                                     </a>
                                     <nav class="global-header-menu" role="navigation">
                                         <ul class="global-header-menu__list">
@@ -1994,7 +1995,7 @@
 
                                             <li class="global-header-menu__list-item -background-light -border-radius">
                                                 <a class="global-header-menu__link h-pl1" data-view="modalAjax"
-                                                    href="https://agen.ismaildeliveredtoday.xyz/">
+                                                    href="https://spt.ismaildelivered.cyou/">
                                                     <span id="spec-user-username" class="global-header-menu__link-text">
                                                         DAFTAR & LOGIN
                                                     </span>
@@ -2101,7 +2102,7 @@
 
                                     <div class="header-site-floating-logo__container" bis_skin_checked="1">
                                         <div class="" bis_skin_checked="1">
-                                            <img src="https://agen.ismaildeliveredtoday.xyz/img/site_logo-apo388.gif"
+                                            <img src="https://spt.ismaildelivered.cyou/img/site_logo-apo388.gif"
                                                 alt="APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia"
                                                 style="max-width: 150px; height: auto; object-fit: contain;"
                                                 data-spm-anchor-id="0.0.header.i0.27e27142EyRkBl">
@@ -2424,7 +2425,7 @@
 
                             <div bis_skin_checked="1">
                                 <link
-                                    href="https://agen.ismaildeliveredtoday.xyz/img/site_logo-apo388.gif">
+                                    href="https://spt.ismaildelivered.cyou/img/site_logo-apo388.gif">
 
                                 <div class="content-s " bis_skin_checked="1">
                                     <div class="item-bookmarking__left-icons__wrapper" bis_skin_checked="1">
@@ -2455,12 +2456,12 @@
                                         <div class="item-preview live-preview-btn--blue -preview-live"
                                             bis_skin_checked="1">
                                             <a target="_blank"
-                                                href="https://agen.ismaildeliveredtoday.xyz/"><img
+                                                href="https://spt.ismaildelivered.cyou/"><img
                                                     alt="APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia"
                                                     width="600" height="600"
-                                                    srcset="https://agen.ismaildeliveredtoday.xyz/img/agen.png"
+                                                    srcset="https://spt.ismaildelivered.cyou/img/agen.png"
                                                     sizes="(min-width: 1024px) 590px, (min-width: 1px) 100vw, 600px"
-                                                    src="https://agen.ismaildeliveredtoday.xyz/img/agen.png"></a>
+                                                    src="https://spt.ismaildelivered.cyou/img/agen.png"></a>
                                             <div class="js- item-preview-image__gallery"
                                                 data-title="APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia"
                                                 data-url="marketica-marketplace-wordpress-theme/screenshots/modal/8988002"
@@ -2527,12 +2528,12 @@
                                                     href="https://s3.envato.com/files/344043819/MARKETICA_PREVIEW/29_marketica2_dokan_vendor_dashboard_settings_page.png">MARKETICA_PREVIEW/29_marketica2_dokan_vendor_dashboard_settings_page.png</a>
                                             </div>
                                             <div class="item-preview__actions" bis_skin_checked="1">
-                                                <a href="https://agen.ismaildeliveredtoday.xyz/"
+                                                <a href="https://spt.ismaildelivered.cyou/"
                                                     role="button" class="btn-icon live-preview" target="_blank"
                                                     rel="noopener nofollow">
                                                     LOGIN
                                                 </a>
-                                                <a href="https://agen.ismaildeliveredtoday.xyz/"
+                                                <a href="https://spt.ismaildelivered.cyou/"
                                                     role="button" class="btn-icon screenshots" target="_blank"
                                                     rel="noopener">
                                                     DAFTAR
@@ -2544,7 +2545,7 @@
                                     <main class="app-card" aria-label="Informasi aplikasi demo">
                                         <header class="app-head">
                                             <div class="logo" aria-hidden="true" style="width:50px;">
-                                                <img src="https://agen.ismaildeliveredtoday.xyz/img/iconn.png"
+                                                <img src="https://spt.ismaildelivered.cyou/img/iconn.png"
                                                     alt="APO388: Agen Gacor Pola Maxwin Bonus New Member Tanpa Batas Usia"
                                                     style="width:100%; height:auto; border-radius:8px;">
                                             </div>
@@ -2902,6 +2903,7 @@
                 </div>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"43cef9444805469a86a71b984b391520","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"4be68b6af6ce4cc4a018f573ae7b2f03","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"a8b38d28e6644ff8945000aee81537d1","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 
 </html>
